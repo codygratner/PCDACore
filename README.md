@@ -50,22 +50,44 @@ What works today     "Where I Disagree"          Deliver 100% of intent
 
 ---
 
+## 📦 Editions: Choose Your Deployment
+
+PCDACore is engineered to adapt across environments from enterprise air-gapped workstations to connected frontier IDEs:
+
+| Edition | Spec File | Target Environment | Network Policy |
+| :--- | :--- | :--- | :--- |
+| **Pure Offline (Air-Gapped)** | [`PCDACore-Offline.md`](PCDACore-Offline.md) | **Ollama, LM Studio, vLLM, llama.cpp, private corporate VPCs** | **Strictly ZERO network calls.** Local first-principles, flags unverified claims, concludes with local test assertions. |
+| **Hybrid (Fast-Loop + Crucible)** | [`PCDACore-Hybrid.md`](PCDACore-Hybrid.md) | **Cursor, Windsurf, Antigravity, Claude Code** | **2-Phase lifecycle.** Phase 1 offline dialectic; Phase 2 targeted online falsification (with graceful offline fallback). |
+| **Universal Baseline** | [`PCDACore.md`](PCDACore.md) | **Any LLM assistant or agent prompt** | **Portable <50-line rule.** Zero dependencies, strict 4-part Hegelian scaffold. |
+| **The Resequencer (`PCDA-TDS`)** | [`Resequence.md`](Resequence.md) | **Task dockets, roadmap planning, DSP chains** | **Topological wave scheduler.** Kahn's BFS (Lite) + Critical Path Method CPM (Heavy). |
+
+---
+
 ## ⚡ 1-Minute Quick Start
 
 ### 1. Copy into Your AI Assistant Rules
 
-Choose your tool:
+#### Option A: Local-Only / Air-Gapped LLMs (Ollama, LM Studio, vLLM)
+For strict privacy and zero-network enterprise environments:
+- **Ollama**: In your `Modelfile`, append [`PCDACore-Offline.md`](PCDACore-Offline.md) to your `SYSTEM` prompt:
+  ```dockerfile
+  FROM qwen2.5-coder:14b
+  SYSTEM """
+  <Paste contents of PCDACore-Offline.md here>
+  """
+  ```
+- **LM Studio / LocalAI**: Paste [`PCDACore-Offline.md`](PCDACore-Offline.md) into the **System Prompt** box under Preset Settings.
 
-#### Option A: Cursor (`.cursorrules`)
-Copy the contents of [`PCDACore.md`](PCDACore.md) into the root `.cursorrules` file of your project.
+#### Option B: Cursor (`.cursorrules`)
+Copy the contents of [`PCDACore.md`](PCDACore.md) or [`PCDACore-Hybrid.md`](PCDACore-Hybrid.md) into the root `.cursorrules` file of your project.
 
-#### Option B: Google Gemini CLI (`GEMINI.md`)
-Append [`PCDACore.md`](PCDACore.md) into `GEMINI.md` in your workspace root.
+#### Option C: Google Gemini CLI (`GEMINI.md`)
+Append [`PCDACore.md`](PCDACore.md) or [`PCDACore-Hybrid.md`](PCDACore-Hybrid.md) into `GEMINI.md` in your workspace root.
 
-#### Option C: Claude Code / Anthropic (`CLAUDE.md`)
+#### Option D: Claude Code / Anthropic (`CLAUDE.md`)
 Append [`PCDACore.md`](PCDACore.md) into `CLAUDE.md`.
 
-#### Option D: OpenAI / Custom Agent Framework (`AGENTS.md`)
+#### Option E: OpenAI / Custom Agent Framework (`AGENTS.md`)
 Append [`PCDACore.md`](PCDACore.md) into your system prompt or `AGENTS.md`.
 
 ---

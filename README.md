@@ -6,6 +6,9 @@
 [![Format](https://img.shields.io/badge/Format-<50%20Lines%20Markdown-orange.svg)](#)
 [![Local LLM Ready](https://img.shields.io/badge/Air--Gapped-100%25%20Offline-success.svg)](#)
 
+> **GitHub Description**: The standalone cognitive shield for AI pair-programming: constructive adversarial dialectics (Method B+) to bust sycophancy with zero dependencies.  
+> **Topics**: `ai-agents` · `prompt-engineering` · `system-prompts` · `cursorrules` · `claude-code` · `gemini` · `antigravity` · `sycophancy-mitigation` · `hegelian-dialectic` · `vibe-coding` · `local-llm` · `ollama` · `developer-tools` · `resequence`
+
 ---
 
 ## ⚡ The No-Bullshit TL;DR

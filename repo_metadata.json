@@ -1,0 +1,25 @@
+{
+  "name": "PCDACore",
+  "version": "1.0.0",
+  "description": "The standalone cognitive shield for AI pair-programming: constructive adversarial dialectics (Method B+) to bust sycophancy with zero dependencies.",
+  "license": "GPL-3.0-or-later",
+  "author": "Cody Gratner",
+  "homepage": "https://github.com/codygratner/PCDACore",
+  "topics": [
+    "ai-agents",
+    "prompt-engineering",
+    "system-prompts",
+    "cursorrules",
+    "claude-code",
+    "gemini",
+    "antigravity",
+    "sycophancy-mitigation",
+    "hegelian-dialectic",
+    "vibe-coding",
+    "local-llm",
+    "ollama",
+    "developer-tools",
+    "resequence",
+    "critical-path-method"
+  ]
+}

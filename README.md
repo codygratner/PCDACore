@@ -7,7 +7,7 @@
 [![Local LLM Ready](https://img.shields.io/badge/Air--Gapped-100%25%20Offline-success.svg)](#)
 
 > **GitHub Description**: The standalone cognitive shield for AI pair-programming: constructive adversarial dialectics (Method B+) to bust sycophancy with zero dependencies.  
-> **Topics**: `ai-agents` · `prompt-engineering` · `system-prompts` · `cursorrules` · `claude-code` · `gemini` · `antigravity` · `sycophancy-mitigation` · `hegelian-dialectic` · `vibe-coding` · `local-llm` · `ollama` · `developer-tools` · `resequence`
+> **Topics**: `ai-agents` · `prompt-engineering` · `system-prompts` · `cursorrules` · `claude-code` · `gemini` · `antigravity` · `sycophancy-mitigation` · `hegelian-dialectic` · `vibe-coding` · `local-llm` · `ollama` · `developer-tools` · `resequence` · `healthcare` · `hipaa` · `phi-compliance`
 
 ---
 
@@ -155,11 +155,12 @@ You don't need to burn expensive frontier reasoning quota on routine architectur
 
 ## 🔬 Pluggable Domain Lenses
 
-PCDACore includes 4 domain-tailored lens sets in [`lenses.json`](lenses.json):
+PCDACore includes 5 domain-tailored lens sets in [`lenses.json`](lenses.json):
 
 | Domain Profile | Primary Evaluation Lenses |
 | :--- | :--- |
 | **Systems Engineering** *(Default)* | Developer Ergonomics · Industry SOTA · Architecture & Coupling · Long-Term Sustainability |
+| **Healthcare & PHI Compliance** | Air-Gap Data Boundary & Zero-Leakage · HIPAA Safe Harbor & Minimization · Claims Adjudication & Clinical Integrity · Regulatory Audit & Governance Drift |
 | **Audio & DSP** | Audio Thread Real-Time Safety · SIMD Cost · Aliasing & Sound Quality · UI Latency |
 | **Studio & Hardware** | Signal Flow & Latency · Physical Ergonomics · Power & Noise Floor · BOM Cost |
 | **Creative & Narrative** | Narrative Resonance · Player Agency · Systems Balance · Elegance & Occam |

@@ -111,6 +111,34 @@
           "prompt": "Eliminate superfluous rules, convoluted systems, and excessive bloat."
         }
       ]
+    },
+    "healthcare_phi": {
+      "id": "healthcare_phi",
+      "name": "Healthcare Systems, Insurance & PHI Compliance",
+      "tags": ["healthcare", "phi", "hipaa", "insurance", "compliance", "privacy", "security", "enterprise", "local-llm"],
+      "lenses": [
+        {
+          "id": "data_boundary_airgap",
+          "name": "Air-Gap Data Boundary & Zero-Leakage",
+          "prompt": "Verify that all inference and context processing remain strictly within the local, air-gapped enclave. Audit for external network calls, remote telemetry, model checkpoint persistence, or prompt caching that could expose member/patient data."
+        },
+        {
+          "id": "hipaa_safe_harbor",
+          "name": "HIPAA Safe Harbor & Data Minimization",
+          "prompt": "Enforce strict data minimization and de-identification (Safe Harbor 18 identifiers: names, dates, claim IDs, MRNs, SSNs, geographic subdivisions). Verify synthetic data masking, tokenization, or zero-retention policies prior to context ingestion."
+        },
+        {
+          "id": "claims_clinical_integrity",
+          "name": "Claims Adjudication & Clinical Hallucination Risk",
+          "prompt": "Stress-test for hallucinations in benefit matrices, EDI 837/835/270/271 schemas, CPT/ICD-10/HCPCS codes, prior authorization logic, and accumulators. Ensure the system never fabricates clinical criteria, medical necessity guidelines, or coverage determinations."
+        },
+        {
+          "id": "regulatory_governance_drift",
+          "name": "Regulatory Compliance, BAA & Audit Drift",
+          "prompt": "Audit immutable access logging, Business Associate Agreement (BAA) boundaries, CMS/HITECH compliance, and model drift over time to guarantee deterministic, auditable decisions in production healthcare environments."
+        }
+      ]
     }
   }
 }
+

@@ -20,6 +20,9 @@
     "ollama",
     "developer-tools",
     "resequence",
-    "critical-path-method"
+    "critical-path-method",
+    "healthcare",
+    "hipaa",
+    "phi-compliance"
   ]
 }

@@ -42,7 +42,9 @@ Format the response using this exact 4-part structure (keep total response conci
 ### 5. Pluggable Domain Lenses (Optional Extension)
 Adapt the 4 evaluation lenses to the active domain (default: Systems Engineering):
 - **Systems Engineering**: `[Ergonomics, Industry SOTA, Architecture & Coupling, Sustainability]`
+- **Healthcare & PHI Compliance**: `[Air-Gap Data Boundary & Zero-Leakage, HIPAA Safe Harbor & Data Minimization, Claims Adjudication & Clinical Hallucination Risk, Regulatory Audit & Compliance Drift]`
 - **Audio & DSP**: `[Real-Time Safety & Zero-Allocations, CPU/SIMD Cost, Aliasing & Sound Quality, UI Latency]`
 - **Studio & Hardware**: `[Signal Flow & Latency, Physical Ergonomics, Power & Noise Floor, BOM & Cost]`
 - **Creative & Writing**: `[Narrative Resonance, Player Agency, Systems Balance, Elegance & Occam]`
+
 # --- END PCDACore-Offline ---

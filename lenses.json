@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PCDACore Pluggable Domain Lenses Schema & Profiles",
   "default_profile": "systems_dev",
   "profiles": {
@@ -10,24 +10,24 @@
       "tags": ["systems", "architecture", "infra", "backend", "tooling"],
       "lenses": [
         {
-          "id": "ergonomics",
-          "name": "Developer Ergonomics",
-          "prompt": "Evaluate cognitive load, API elegance, and daily developer velocity."
+          "id": "developer_ergonomics",
+          "name": "Developer Ergonomics & Feedback Velocity",
+          "prompt": "Evaluate cognitive surface area, local dev-loop latency (<1s feedback), API clarity, and daily engineering velocity."
         },
         {
-          "id": "industry_sota",
-          "name": "Industry SOTA & Precedents",
-          "prompt": "Compare with modern state-of-the-art architectures and existing precedents."
+          "id": "proven_precedent",
+          "name": "Battle-Tested Precedents vs. Hype (Boring Tech)",
+          "prompt": "Stress-test against Gall's Law and proven boring architectures; actively penalize resume-driven complexity and unneeded distributed layers."
         },
         {
-          "id": "architecture_coupling",
-          "name": "Architecture & Coupling",
-          "prompt": "Analyze modularity, blast radius, separation of concerns, and coupling."
+          "id": "coupling_blast_radius",
+          "name": "Coupling, Boundaries & Blast Radius",
+          "prompt": "Audit module cohesion, dependency acyclicity, state encapsulation, and failure propagation containment across failure domains."
         },
         {
-          "id": "sustainability",
-          "name": "Long-Term Sustainability",
-          "prompt": "Assess maintenance burden, technical debt, and 6-month failure modes."
+          "id": "operability_observability",
+          "name": "Runtime Operability, Observability & Rollback",
+          "prompt": "Verify state inspectability, structured telemetry, failure-mode tracing, deterministic rollback paths, and operational survival at 03:00."
         }
       ]
     },
@@ -37,24 +37,24 @@
       "tags": ["audio", "dsp", "vst", "juce", "synth", "plugin"],
       "lenses": [
         {
-          "id": "realtime_safety",
-          "name": "Audio Thread Real-Time Safety",
-          "prompt": "Verify zero heap allocations, zero blocking locks, and zero I/O on the audio thread."
+          "id": "realtime_safety_concurrency",
+          "name": "Audio Thread Safety & Lock-Free IPC",
+          "prompt": "Verify zero heap allocations, zero blocking locks, zero file/console I/O, and lock-free thread boundaries between DSP and GUI/worker threads."
         },
         {
-          "id": "simd_cost",
-          "name": "CPU & SIMD Vectorization Cost",
-          "prompt": "Evaluate per-sample compute budget, transcendental math, and vectorization."
+          "id": "compute_vectorization_budget",
+          "name": "CPU Budget, SIMD & Cache Locality",
+          "prompt": "Audit per-sample cycle budget, transcendental math approximations, SIMD vectorization paths, memory cache alignment, and FTZ/DAZ denormal handling."
         },
         {
-          "id": "sound_quality",
-          "name": "Aliasing & Sound Quality",
-          "prompt": "Check oversampling, bandlimiting (PolyBLEP/minBLEP), and phase response."
+          "id": "dsp_stability_fidelity",
+          "name": "Numerical Stability & Acoustic Fidelity",
+          "prompt": "Verify bounded filter stability under extreme modulation, zero NaN/inf vectors, DC blocking, PolyBLEP/minBLEP anti-aliasing, and linear phase behavior."
         },
         {
-          "id": "ui_latency",
-          "name": "UI/Audio Thread Decoupling & Latency",
-          "prompt": "Ensure lock-free parameter queues and 60fps responsive UI without audio drops."
+          "id": "host_lifecycle_parameters",
+          "name": "DAW Lifecycle, Parameter Smoothing & State",
+          "prompt": "Audit dynamic sample rate switching, arbitrary buffer block sizes (including 0 samples), zipper-free parameter smoothing, and thread-safe preset serialization."
         }
       ]
     },
@@ -64,24 +64,24 @@
       "tags": ["studio", "hardware", "eurorack", "wiring", "m8", "pedals", "midi"],
       "lenses": [
         {
-          "id": "signal_flow",
-          "name": "Signal Flow, Latency & Jitter",
-          "prompt": "Audit analog/digital conversion latency, MIDI clock jitter, and gain staging."
+          "id": "power_ground_isolation",
+          "name": "Power Distribution & Galvanic Isolation",
+          "prompt": "Audit rail capacity across +12V/-12V/+5V, inrush current headroom, power supply ripple, USB ground loops, and transformer isolation."
         },
         {
-          "id": "physical_ergonomics",
-          "name": "Physical Ergonomics & Reach",
-          "prompt": "Evaluate desk real estate, knob spacing, patching speed, and screen glare."
+          "id": "gain_staging_interop",
+          "name": "Gain Staging & Voltage Level Interoperability",
+          "prompt": "Audit level matching across Eurorack (10Vpp), pro line level (+4dBu), consumer gear (-10dBV), instrument impedance, and headroom before clipping."
         },
         {
-          "id": "power_noise",
-          "name": "Power, Ground Loops & Noise Floor",
-          "prompt": "Check mA draw across +12V/-12V/+5V rails, ripple, USB ground loops, and isolation."
+          "id": "clock_control_protocols",
+          "name": "Clock Synchronization & Control Protocol Discipline",
+          "prompt": "Verify low-jitter clock distribution (master/slave topology), MIDI TRS Type A/B wiring integrity, DIN-5 throughput, and CV/Gate V/Oct tracking accuracy."
         },
         {
-          "id": "bom_cost",
-          "name": "BOM Cost, Resale & Build Effort",
-          "prompt": "Assess bill of materials, availability, build difficulty, and gear longevity."
+          "id": "spatial_ergonomics_recall",
+          "name": "Physical Layout, Cable Hygiene & Session Recall",
+          "prompt": "Evaluate desk real estate, patchbay accessibility, thermal ventilation, cable routing clutter, and immediate <30s zero-friction record readiness."
         }
       ]
     },
@@ -91,54 +91,53 @@
       "tags": ["ttrpg", "writing", "lyrics", "gamedesign", "narrative", "lore"],
       "lenses": [
         {
-          "id": "narrative_resonance",
-          "name": "Narrative Resonance & Theme",
-          "prompt": "Evaluate emotional impact, thematic coherence, and tone."
+          "id": "thematic_dramatic_stakes",
+          "name": "Thematic Resonance & Dramatic Stakes",
+          "prompt": "Evaluate emotional core, tonal discipline, narrative momentum, and active dramatic conflict; penalize encyclopedic lore dumps lacking dramatic stakes."
         },
         {
-          "id": "player_agency",
-          "name": "Player/Reader Agency",
-          "prompt": "Ensure meaningful choices, avoid railroad traps, and reward curiosity."
+          "id": "agency_meaningful_consequence",
+          "name": "Participant Agency & Permanent Consequence",
+          "prompt": "Ensure genuine dilemmas, un-railroaded player/reader autonomy, meaningful branching, and non-trivial consequence permanence."
         },
         {
-          "id": "systems_balance",
-          "name": "Systems Balance & Ludonarrative",
-          "prompt": "Check mechanical equilibrium, exploit vectors, and mechanics matching lore."
+          "id": "ludonarrative_harmony",
+          "name": "Ludonarrative Harmony & Systems Cohesion",
+          "prompt": "Verify that rules and mechanics directly reinforce narrative themes, preventing degenerate optimal strategies and tonal dissonance."
         },
         {
-          "id": "elegance_occam",
-          "name": "Elegance & Occam's Razor",
-          "prompt": "Eliminate superfluous rules, convoluted systems, and excessive bloat."
+          "id": "procedural_elegance_friction",
+          "name": "Procedural Economy & Cognitive Ergonomics",
+          "prompt": "Prune mechanical bloat and table friction; optimize for intuitive mental models, minimal look-up overhead, and Occam's razor simplicity."
         }
       ]
     },
-    "healthcare_phi": {
-      "id": "healthcare_phi",
-      "name": "Healthcare Systems, Insurance & PHI Compliance",
-      "tags": ["healthcare", "phi", "hipaa", "insurance", "compliance", "privacy", "security", "enterprise", "local-llm"],
+    "insurance_expense_mgmt": {
+      "id": "insurance_expense_mgmt",
+      "name": "Health Insurance & Benefits Expense Management (HEM)",
+      "tags": ["benefits", "insurance", "tem", "invoicing", "payroll", "census", "erisa", "zero-phi", "enterprise"],
       "lenses": [
         {
-          "id": "data_boundary_airgap",
-          "name": "Air-Gap Data Boundary & Zero-Leakage",
-          "prompt": "Verify that all inference and context processing remain strictly within the local, air-gapped enclave. Audit for external network calls, remote telemetry, model checkpoint persistence, or prompt caching that could expose member/patient data."
+          "id": "roster_reconciliation_zombie_leakage",
+          "name": "Census Reconciliation & Zombie Premium Leakage",
+          "prompt": "Audit line-by-line carrier billing rosters against HRIS census records to isolate terminated employees (zombie premiums), phantom dependents, and un-enrolled active staff without relying on SSNs or clinical data."
         },
         {
-          "id": "hipaa_safe_harbor",
-          "name": "HIPAA Safe Harbor & Data Minimization",
-          "prompt": "Enforce strict data minimization and de-identification (Safe Harbor 18 identifiers: names, dates, claim IDs, MRNs, SSNs, geographic subdivisions). Verify synthetic data masking, tokenization, or zero-retention policies prior to context ingestion."
+          "id": "contract_rate_tier_integrity",
+          "name": "Contract Rate Schedule & Coverage Tier Integrity",
+          "prompt": "Verify billed per-employee-per-month (PEPM) premiums against active negotiated group master policies, detecting tier classification drift (Single vs. Family), unexpected rate hikes, and erroneous rider surcharges."
         },
         {
-          "id": "claims_clinical_integrity",
-          "name": "Claims Adjudication & Clinical Hallucination Risk",
-          "prompt": "Stress-test for hallucinations in benefit matrices, EDI 837/835/270/271 schemas, CPT/ICD-10/HCPCS codes, prior authorization logic, and accumulators. Ensure the system never fabricates clinical criteria, medical necessity guidelines, or coverage determinations."
+          "id": "retro_clawback_erisa_parity",
+          "name": "Retroactive Clawback Windows & Payroll Parity",
+          "prompt": "Enforce strict detection velocity within carrier 60-90 day retroactive credit look-back limits, and verify three-way match parity against payroll deduction registers to prevent ERISA plan asset violations."
         },
         {
-          "id": "regulatory_governance_drift",
-          "name": "Regulatory Compliance, BAA & Audit Drift",
-          "prompt": "Audit immutable access logging, Business Associate Agreement (BAA) boundaries, CMS/HITECH compliance, and model drift over time to guarantee deterministic, auditable decisions in production healthcare environments."
+          "id": "zero_phi_boundary_minimization",
+          "name": "Zero-PHI Perimeter & B2B Data Minimization",
+          "prompt": "Enforce a strict zero-PHI boundary: guarantee complete exclusion of ICD-10/CPT codes, medical diagnoses, and clinical claims; verify synthetic subscriber tokenization to eliminate HIPAA breach exposure at ingestion."
         }
       ]
     }
   }
 }
-

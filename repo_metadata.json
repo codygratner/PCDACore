@@ -1,6 +1,6 @@
 {
   "name": "PCDACore",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The standalone cognitive shield for AI pair-programming: constructive adversarial dialectics (Method B+) to bust sycophancy with zero dependencies.",
   "license": "GPL-3.0-or-later",
   "author": "Cody Gratner",
@@ -21,8 +21,8 @@
     "developer-tools",
     "resequence",
     "critical-path-method",
-    "healthcare",
-    "hipaa",
-    "phi-compliance"
+    "insurance-management",
+    "benefits-audit",
+    "b2b-saas"
   ]
 }

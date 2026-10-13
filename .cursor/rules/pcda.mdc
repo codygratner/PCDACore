@@ -31,9 +31,9 @@ Trigger this rule whenever evaluating architectural proposals, trade-offs, tech 
 
 ## Pluggable Domain Lenses (Optional)
 Adapt the 4 evaluation lenses to the active domain (default: Systems Engineering):
-- **Systems Engineering**: `[Ergonomics, Industry SOTA, Architecture & Coupling, Sustainability]`
-- **Healthcare & PHI Compliance**: `[Air-Gap Data Boundary & Zero-Leakage, HIPAA Safe Harbor & Data Minimization, Claims Adjudication & Clinical Hallucination Risk, Regulatory Audit & Compliance Drift]`
-- **Audio & DSP**: `[Real-Time Safety & Zero-Allocations, CPU/SIMD Cost, Aliasing & Sound Quality, UI Latency]`
-- **Studio & Hardware**: `[Signal Flow & Latency, Physical Ergonomics, Power & Noise Floor, BOM & Cost]`
-- **Creative & Writing**: `[Narrative Resonance, Player Agency, Systems Balance, Elegance & Occam]`
+- **Systems Engineering**: `[Developer Ergonomics, Proven Precedents (Boring Tech), Coupling & Blast Radius, Operability & Observability]`
+- **Audio Plugin & Real-Time DSP**: `[Audio Thread Real-Time Safety, CPU & SIMD Vectorization, Numerical Stability & Acoustics, DAW Host Lifecycle & State]`
+- **Studio & Hardware Rig**: `[Power & Ground Isolation, Gain Staging & Headroom, Clock & Control Protocols, Spatial Ergonomics & Recall]`
+- **Creative Writing & Game Design**: `[Thematic Stakes & Momentum, Participant Agency, Ludonarrative Harmony, Procedural Economy]`
+- **Health Insurance & Expense Mgmt (HEM)**: `[Census & Zombie Leakage, Contract Rate & Tier Integrity, Retro Clawback & ERISA Parity, Zero-PHI Perimeter]`
 

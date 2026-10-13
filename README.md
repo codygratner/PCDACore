@@ -1,4 +1,4 @@
-# PCDACore (v1.0.0)
+# PCDACore (v1.1.0)
 > **The Standalone Cognitive Shield for AI Pair-Programming: Constructive Adversarial Dialectics (Method B+) with Zero Dependencies.**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -7,7 +7,7 @@
 [![Local LLM Ready](https://img.shields.io/badge/Air--Gapped-100%25%20Offline-success.svg)](#)
 
 > **GitHub Description**: The standalone cognitive shield for AI pair-programming: constructive adversarial dialectics (Method B+) to bust sycophancy with zero dependencies.  
-> **Topics**: `ai-agents` · `prompt-engineering` · `system-prompts` · `cursorrules` · `claude-code` · `gemini` · `antigravity` · `sycophancy-mitigation` · `hegelian-dialectic` · `vibe-coding` · `local-llm` · `ollama` · `developer-tools` · `resequence` · `healthcare` · `hipaa` · `phi-compliance`
+> **Topics**: `ai-agents` · `prompt-engineering` · `system-prompts` · `cursorrules` · `claude-code` · `gemini` · `antigravity` · `sycophancy-mitigation` · `hegelian-dialectic` · `vibe-coding` · `local-llm` · `ollama` · `developer-tools` · `resequence` · `insurance-management` · `benefits-audit` · `b2b-saas`
 
 ---
 
@@ -159,11 +159,11 @@ PCDACore includes 5 domain-tailored lens sets in [`lenses.json`](lenses.json):
 
 | Domain Profile | Primary Evaluation Lenses |
 | :--- | :--- |
-| **Systems Engineering** *(Default)* | Developer Ergonomics · Industry SOTA · Architecture & Coupling · Long-Term Sustainability |
-| **Healthcare & PHI Compliance** | Air-Gap Data Boundary & Zero-Leakage · HIPAA Safe Harbor & Minimization · Claims Adjudication & Clinical Integrity · Regulatory Audit & Governance Drift |
-| **Audio & DSP** | Audio Thread Real-Time Safety · SIMD Cost · Aliasing & Sound Quality · UI Latency |
-| **Studio & Hardware** | Signal Flow & Latency · Physical Ergonomics · Power & Noise Floor · BOM Cost |
-| **Creative & Narrative** | Narrative Resonance · Player Agency · Systems Balance · Elegance & Occam |
+| **Systems Engineering** *(Default)* | Developer Ergonomics · Battle-Tested Precedents (Boring Tech) · Coupling & Blast Radius · 03:00 Operability & Rollback |
+| **Audio Plugin & Real-Time DSP** | Audio Thread Real-Time Safety · CPU & SIMD Vectorization · Numerical Stability (NaN/Denormals) · DAW Host Lifecycle & State |
+| **Studio & Hardware Rig** | Power & Ground Isolation · Gain Staging & Headroom · Clock & Control Protocols · Spatial Layout & Session Recall |
+| **Creative Writing & Game Design** | Thematic Stakes & Momentum · Participant Agency · Ludonarrative Harmony · Procedural Economy & Cognitive Ergonomics |
+| **Health Insurance & Expense Mgmt (HEM)** | Census & Zombie Premium Leakage · Contract Rate & Tier Integrity · 60-Day Clawbacks & ERISA Parity · Zero-PHI Perimeter |
 
 ---
 

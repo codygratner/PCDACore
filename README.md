@@ -159,7 +159,30 @@ Need to sort an unranked, chaotic bag of tickets or milestone flights?
 
 ---
 
+## 🤝 Contributing & Community
+
+Contributions are welcome! Whether you are:
+- Adding specialized domain evaluation lenses to [`lenses.json`](lenses.json)
+- Tuning prompt templates for new local models or IDEs
+- Submitting empirical benchmark findings
+
+Please review our [Contributing Guidelines](CONTRIBUTING.md) and [Authors List](AUTHORS.md) before opening a pull request.
+
+---
+
 ## 📜 License
 
-GNU General Public License v3.0 ([LICENSE](LICENSE)). Free to use, fork, and embed into open-source and proprietary agent harnesses alike.
+**PCDACore** is open-source software licensed under the **GNU General Public License v3.0** ([LICENSE](LICENSE)).
+
+```text
+PCDACore - Constructive Adversarial Dialectics (Method B+) for AI Pair-Programming
+Copyright (C) 2026 Cody Gratner <https://github.com/codygratner/PCDACore>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+```
+Free to use, fork, and embed into open-source and proprietary agent harnesses alike.
+
 

@@ -136,8 +136,9 @@ You don't need to burn expensive frontier reasoning quota on routine architectur
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Tier 1: Heavy Hammer (Claude 3.5/3.7 Sonnet, Opus 5.5, Gemini Pro)   │
-│  Best for: 100-page monolithic refactors, deep DSP math, formal proofs │
+│  Tier 1: Heavy Hammer (Claude Opus 5.5, Gemini 4 Argon High)           │
+│  Best for: Foundational pivots, core concurrency, licensing audits,    │
+│            100-page monolithic refactors, and formal DSP math proofs.  │
 ├────────────────────────────────────────────────────────────────────────┤
 │  Tier 2: The Golden Daily Driver (Gemini 3.8 Flash High)  <-- SWEET SPOT│
 │  Best for: 95% of daily engineering. Sub-second speed, near-zero cost, │
@@ -148,8 +149,10 @@ You don't need to burn expensive frontier reasoning quota on routine architectur
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-> [!TIP] 💡 **The Token-Economy Secret**
-> Our extensive benchmarks revealed that **Gemini 3.8 Flash High** provides the single best price-to-performance sweet spot for PCDACore. While ultra-heavy models like Claude Opus produce breathtaking adversarial teardowns, they cost orders of magnitude more and take longer to think. Flash High follows the 4-part scaffold with zero drifting in sub-second time.
+> [!TIP] 💡 **The Token-Economy Secret & The Eight-Way Benchmark**
+> Our canonical **[Eight-Way Frontier Benchmark](docs/BENCHMARKS.md)** revealed that **Gemini 3.8 Flash High** provides the single best price-to-performance sweet spot for PCDACore (Score: 3.88), outperforming older Pro models at 25% of the cost. When escalating to Tier 1, **Gemini 4 Argon (4.91)** and **Claude Opus 5.5 (5.00)** dominate the leaderboard, discovering existential architectural traps that cheaper models miss.
+>
+> 👉 **Read the full study, methodology, and scorecard: [`docs/BENCHMARKS.md`](docs/BENCHMARKS.md)**
 
 ---
 

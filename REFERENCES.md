@@ -84,7 +84,8 @@ Early attempts to solve sycophancy instructed models to "be brutal" or "play dev
 ### The Creator's Laboratory
 - **Cody Gratner** ([@codygratner](https://github.com/codygratner)):
   - Synthesized **Method B+** and **Topological Dialectical Sorting (TDS)** during the development of **The Klang Suite** (`TKS`), a complex ecosystem spanning real-time C++20 audio DSP plugins (JUCE 9.0.3), embedded tracker hardware firmware (`ToadTracker`), and multi-agent IDE sidecars (`N'kai`).
-- **The `rj-22` Dialectical Benchmark (October 2026)**:
-  - Stress-tested frontier LLMs across real-time audio thread safety (zero heap allocations, lock-free ring buffers), SQLite microservice rewrites, and UI architecture.
-  - Proved that standard prompts suffered an 88% sycophancy rate, while raw devil's advocate prompts produced 0 viable solutions.
-  - **Method B+ achieved a 100% elimination of sycophancy while delivering verified, zero-dependency working solutions in every test run.**
+- **The `rj-22` Eight-Way Dialectical Benchmark (October 2026)**:
+  - Stress-tested four frontier AI engines (**Gemini 3.8 Flash**, **Gemini 3.1 Pro**, **Gemini 4 Argon**, and **Claude Opus 5.5**) across Method A and Method B+ on real-time DAW architecture and concurrency.
+  - Proved that standard prompts suffered high sycophancy rates, while raw devil's advocate prompts produced 0 viable solutions.
+  - Confirmed **Method B+** delivered an average $+0.89$ quality multiplier across all models, elevating **Gemini 4 Argon** (4.91) alongside **Claude Opus 5.5** (5.00) into the elite frontier tier.
+  - 👉 **For full methodology, double-blind scorecard, and empirical data, see [`docs/BENCHMARKS.md`](docs/BENCHMARKS.md).**

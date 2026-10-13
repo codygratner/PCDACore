@@ -1,4 +1,4 @@
-# PCDACore (v1.1.0)
+# PCDACore (v1.1.1)
 > **The Standalone Cognitive Shield for AI Pair-Programming: Constructive Adversarial Dialectics (Method B+) with Zero Dependencies.**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)

@@ -148,6 +148,20 @@ Developed and stress-tested in the **The Klang Suite** ecosystem:
 
 ---
 
+## 📚 Origins & Intellectual Lineage
+
+PCDACore synthesizes classical philosophy, frontier LLM alignment research, and systems engineering:
+
+- **Hegelian Dialectics**: Georg Wilhelm Friedrich Hegel (*Phenomenology of Spirit*, 1807).
+- **LLM Sycophancy Mitigation**: Sharma et al. (Anthropic, 2023), Wei et al. (Google DeepMind, 2023).
+- **Multi-Agent Adversarial Reflection**: Du et al. (MIT, 2023), Liang et al. (2023).
+- **Systems Dynamics & Pragmatism**: John Gall (*Systemantics*, 1977), Daniel Dennett (*Intuition Pumps*, 2013).
+- **Graph Scheduling**: Arthur B. Kahn (1962), Kelley & Walker (*Critical Path Method*, 1959).
+
+👉 **For the complete academic literature review, paper links, and empirical methodology, see [`REFERENCES.md`](REFERENCES.md).**
+
+---
+
 ## 🔄 The Resequencer (`PCDA-TDS`)
 
 Need to sort an unranked, chaotic bag of tickets or milestone flights? 

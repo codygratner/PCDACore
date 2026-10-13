@@ -126,6 +126,18 @@ Developed and stress-tested in the **The Klang Suite** ecosystem:
 
 ---
 
+## 🔄 The Resequencer (`PCDA-TDS`)
+
+Need to sort an unranked, chaotic bag of tickets or milestone flights? 
+
+[`Resequence.md`](Resequence.md) specifies **Topological Dialectical Sorting (TDS)** and the **Critical Path Method (CPM)**:
+- **`PCDA-TDS-Lite`**: Fast in-memory Kahn's algorithm (BFS) extracting Wave 0 (actionable now) vs Wave 1+ in $<5\text{ms}$.
+- **`PCDA-TDS-Heavy`**: Full Critical Path Method (CPM) with Forward/Backward passes, Float calculation ($Float = 0$), and dialectical cycle-breaking.
+- **Includes zero-dependency Python reference implementation.**
+
+---
+
 ## 📜 License
 
 GNU General Public License v3.0 ([LICENSE](LICENSE)). Free to use, fork, and embed into open-source and proprietary agent harnesses alike.
+

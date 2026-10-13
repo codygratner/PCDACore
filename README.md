@@ -1,4 +1,4 @@
-# PCDACore (v1.1.1)
+# PCDACore (v1.1.2)
 > **The Standalone Cognitive Shield for AI Pair-Programming: Constructive Adversarial Dialectics (Method B+) with Zero Dependencies.**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -178,6 +178,16 @@ Need to sort an unranked, chaotic bag of tickets or milestone flights?
 - **`PCDA-TDS-Lite`**: Fast in-memory Kahn's algorithm (BFS) extracting Wave 0 (actionable now) vs Wave 1+ in $<5\text{ms}$.
 - **`PCDA-TDS-Heavy`**: Full Critical Path Method (CPM) with Forward/Backward passes, Float calculation ($Float = 0$), and dialectical cycle-breaking.
 - **Includes zero-dependency Python reference implementation.**
+
+---
+
+## 🐝 Swarms & Subagent Transport: The File-First Protocol
+
+Running autonomous subagent swarms to conduct multi-agent PCDA reviews?
+
+In tool-using agent runtimes (Antigravity, Claude Code, Cursor, Cline), streaming multi-thousand-word dialectical reports directly over HTTP Server-Sent Events (SSE) often triggers socket timeouts (`EOF` / *"The stream was interrupted"*) and pollutes parent context windows.
+
+👉 **Read [`docs/AGENTIC_SWARMS.md`](docs/AGENTIC_SWARMS.md) for the zero-loss, timeout-resilient File-First Protocol.**
 
 ---
 

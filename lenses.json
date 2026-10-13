@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "description": "PCDACore Pluggable Domain Lenses Schema & Profiles",
+  "default_profile": "systems_dev",
+  "profiles": {
+    "systems_dev": {
+      "id": "systems_dev",
+      "name": "Systems Engineering & Architecture",
+      "tags": ["systems", "architecture", "infra", "backend", "tooling"],
+      "lenses": [
+        {
+          "id": "ergonomics",
+          "name": "Developer Ergonomics",
+          "prompt": "Evaluate cognitive load, API elegance, and daily developer velocity."
+        },
+        {
+          "id": "industry_sota",
+          "name": "Industry SOTA & Precedents",
+          "prompt": "Compare with modern state-of-the-art architectures and existing precedents."
+        },
+        {
+          "id": "architecture_coupling",
+          "name": "Architecture & Coupling",
+          "prompt": "Analyze modularity, blast radius, separation of concerns, and coupling."
+        },
+        {
+          "id": "sustainability",
+          "name": "Long-Term Sustainability",
+          "prompt": "Assess maintenance burden, technical debt, and 6-month failure modes."
+        }
+      ]
+    },
+    "audio_dev": {
+      "id": "audio_dev",
+      "name": "Audio Plugin & Real-Time DSP",
+      "tags": ["audio", "dsp", "vst", "juce", "synth", "plugin"],
+      "lenses": [
+        {
+          "id": "realtime_safety",
+          "name": "Audio Thread Real-Time Safety",
+          "prompt": "Verify zero heap allocations, zero blocking locks, and zero I/O on the audio thread."
+        },
+        {
+          "id": "simd_cost",
+          "name": "CPU & SIMD Vectorization Cost",
+          "prompt": "Evaluate per-sample compute budget, transcendental math, and vectorization."
+        },
+        {
+          "id": "sound_quality",
+          "name": "Aliasing & Sound Quality",
+          "prompt": "Check oversampling, bandlimiting (PolyBLEP/minBLEP), and phase response."
+        },
+        {
+          "id": "ui_latency",
+          "name": "UI/Audio Thread Decoupling & Latency",
+          "prompt": "Ensure lock-free parameter queues and 60fps responsive UI without audio drops."
+        }
+      ]
+    },
+    "studio_hardware": {
+      "id": "studio_hardware",
+      "name": "Studio, Eurorack & Hardware Rig",
+      "tags": ["studio", "hardware", "eurorack", "wiring", "m8", "pedals", "midi"],
+      "lenses": [
+        {
+          "id": "signal_flow",
+          "name": "Signal Flow, Latency & Jitter",
+          "prompt": "Audit analog/digital conversion latency, MIDI clock jitter, and gain staging."
+        },
+        {
+          "id": "physical_ergonomics",
+          "name": "Physical Ergonomics & Reach",
+          "prompt": "Evaluate desk real estate, knob spacing, patching speed, and screen glare."
+        },
+        {
+          "id": "power_noise",
+          "name": "Power, Ground Loops & Noise Floor",
+          "prompt": "Check mA draw across +12V/-12V/+5V rails, ripple, USB ground loops, and isolation."
+        },
+        {
+          "id": "bom_cost",
+          "name": "BOM Cost, Resale & Build Effort",
+          "prompt": "Assess bill of materials, availability, build difficulty, and gear longevity."
+        }
+      ]
+    },
+    "creative_general": {
+      "id": "creative_general",
+      "name": "Creative Writing, Game Design & Worldbuilding",
+      "tags": ["ttrpg", "writing", "lyrics", "gamedesign", "narrative", "lore"],
+      "lenses": [
+        {
+          "id": "narrative_resonance",
+          "name": "Narrative Resonance & Theme",
+          "prompt": "Evaluate emotional impact, thematic coherence, and tone."
+        },
+        {
+          "id": "player_agency",
+          "name": "Player/Reader Agency",
+          "prompt": "Ensure meaningful choices, avoid railroad traps, and reward curiosity."
+        },
+        {
+          "id": "systems_balance",
+          "name": "Systems Balance & Ludonarrative",
+          "prompt": "Check mechanical equilibrium, exploit vectors, and mechanics matching lore."
+        },
+        {
+          "id": "elegance_occam",
+          "name": "Elegance & Occam's Razor",
+          "prompt": "Eliminate superfluous rules, convoluted systems, and excessive bloat."
+        }
+      ]
+    }
+  }
+}

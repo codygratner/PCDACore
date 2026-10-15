@@ -1,4 +1,4 @@
-# PCDACore (v1.1.2)
+# PCDACore (v1.2.0)
 > **The Standalone Cognitive Shield for AI Pair-Programming: Constructive Adversarial Dialectics (Method B+) with Zero Dependencies.**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -68,6 +68,9 @@ You will fail."
   unsolvable runtime latency trap.
 - Worst-Case Trap: You hit a non-negotiable 64-sample buffer deadline, V8 runs GC, the DAW crashes, 
   and you must rewrite the engine in C++ from scratch.
+- Epistemic Grounding:
+  - [Verified: Ross Bencina's "Real-Time Audio Programming 101"](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) (zero heap allocation invariant)
+  - ⚠️ [Unverified: Node.js worker-thread isolation claim has never been verified under ASIO 64-sample buffer loads]
 
 ### 4. The 80/20 Resolution [Synthesis & Invariant]
 - Steel-Manned Intent: Fast UI iteration and rapid GUI layout changes without slow C++ recompiles.
@@ -86,9 +89,9 @@ PCDACore is engineered to adapt across environments from enterprise air-gapped w
 
 | Edition | Spec File | Target Environment | Network Policy |
 | :--- | :--- | :--- | :--- |
-| **Pure Offline (Air-Gapped)** | [`PCDACore-Offline.md`](PCDACore-Offline.md) | **Ollama, LM Studio, vLLM, llama.cpp, private corporate VPCs** | **Strictly ZERO network calls.** Local first-principles, flags unverified claims, concludes with local test assertions. |
-| **Hybrid (Fast-Loop + Crucible)** | [`PCDACore-Hybrid.md`](PCDACore-Hybrid.md) | **Cursor, Windsurf, Antigravity, Claude Code** | **2-Phase lifecycle.** Phase 1 offline dialectic; Phase 2 targeted online falsification (with graceful offline fallback). |
-| **Universal Baseline** | [`PCDACore.md`](PCDACore.md) | **Any LLM assistant or agent prompt** | **Portable <50-line rule.** Zero dependencies, strict 4-part Hegelian scaffold. |
+| **Pure Offline (Air-Gapped)** | [`PCDACore-Offline.md`](PCDACore-Offline.md) | **Ollama, LM Studio, vLLM, llama.cpp, private corporate VPCs** | **Strictly ZERO network calls.** Local first-principles, verified local file tags, unverified conjecture bounds, and local test assertions. |
+| **Hybrid (Fast-Loop + Crucible)** | [`PCDACore-Hybrid.md`](PCDACore-Hybrid.md) | **Cursor, Windsurf, Antigravity, Claude Code** | **2-Phase lifecycle.** Phase 1 offline dialectic; Phase 2 targeted online falsification, verified source citations, and grounding ledger. |
+| **Universal Baseline** | [`PCDACore.md`](PCDACore.md) | **Any LLM assistant or agent prompt** | **Portable <50-line rule.** Zero dependencies, strict 4-part Hegelian scaffold with Epistemic Grounding Duality. |
 | **The Resequencer (`PCDA-TDS`)** | [`Resequence.md`](Resequence.md) | **Task dockets, roadmap planning, DSP chains** | **Topological wave scheduler.** Kahn's BFS (Lite) + Critical Path Method CPM (Heavy). |
 
 ---

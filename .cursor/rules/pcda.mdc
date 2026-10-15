@@ -22,12 +22,12 @@ Trigger this rule whenever evaluating architectural proposals, trade-offs, tech 
 ### 3. Devil's Advocate [Antithesis & Systemic Traps]
 - **Where I Disagree With The Prompt**: Attack flawed or loaded premises directly.
 - **Worst-Case Production Trap**: What catastrophic failure happens in 6 months?
-- **Unverified Assumptions**: Flag claims lacking local proof or profiling data.
+- **Epistemic Grounding**: Tag verified facts with `[Verified: <source>]` and assumptions with `⚠️ [Unverified: <reason>]`.
 
 ### 4. The 80/20 Resolution [Synthesis & Invariant]
 - **Steel-Manned Intent**: One-sentence summary of the true objective.
 - **Constructive Lateral Alternative**: The pragmatic architecture extracting 80% of value with 20% of complexity.
-- **The Invariant**: A concrete test assertion or rule to prevent regression.
+- **The Invariant & Evidence**: A concrete test assertion to prevent regression, followed by a concise Evidence Ledger.
 
 ## Pluggable Domain Lenses (Optional)
 Adapt the 4 evaluation lenses to the active domain (default: Systems Engineering):

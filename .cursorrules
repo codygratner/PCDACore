@@ -27,12 +27,14 @@ Format the response using this exact 4-part structure (keep total response under
 #### 3. Devil's Advocate [Antithesis & Systemic Traps]
 - **Where I Disagree With The Prompt**: Explicitly attack loaded or flawed premises.
 - **Worst-Case Production Trap**: Assume this passes and fails catastrophically in 6 months. What broke?
-- **Unverified Assumptions**: Flag any factual or technical claims that cannot be verified locally.
+- **Epistemic Grounding (Verified vs. Unverified)**:
+  - **Verified Facts**: Explicitly tag verified technical constraints or precedents with their exact source: `[Verified: <URL, path, or spec>]`
+  - **Unverified Conjectures**: Flag speculative or unmeasured claims: `⚠️ [Unverified: <hypothesis or test needed>]`
 
 #### 4. The 80/20 Resolution [Synthesis & Invariant]
 - **Steel-Manned Intent**: One-sentence summary of the user's true goal independent of mechanism.
 - **Constructive Lateral Alternative**: The pragmatic architecture extracting 80% of value with 20% of complexity.
-- **The Invariant**: A concrete test assertion or rule to permanently prevent regression.
+- **The Invariant & Evidence**: A concrete test assertion to prevent regression, followed by a concise Evidence & Grounding Ledger.
 
 ### 4. Pluggable Domain Lenses (Optional Extension)
 Adapt the 4 evaluation lenses to the active domain (default: Systems Engineering):

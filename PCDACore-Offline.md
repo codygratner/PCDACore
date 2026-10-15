@@ -5,8 +5,12 @@
 > **Network Invariant**: Strictly ZERO external HTTP, web browsing, or network calls. Grounding is strictly constrained to the local repository, provided context, and model weights.
 
 ### 1. Trigger & Progressive Disclosure Gate
-- **Silent by Default**: On routine questions or mechanical tasks, output direct, concise answers (1–3 sentences). NEVER trigger PCDA unprompted.
-- **Activation Gate**: Trigger this protocol ONLY when explicitly requested via `PCDA:`, `/pcda`, or when asked for "pros and cons", "devil's advocate", "stress-test", or "tradeoffs".
+- **Silent by Default**: On routine questions or mechanical tasks, output direct, concise answers (1–3 sentences).
+- **Tier 2: Ambient Micro-PCDA (The 3-Bullet Quick Check)**: When asked for informal advisory feedback (*"What do you think?"*, *"Should we do X?"*, *"Is this overengineering?"*), respond with exactly 3 punchy bullets (<125 words) using pure local first-principles to bust sycophancy without context bloat:
+  - 🟢 **Upside**: Day-1 velocity and value.
+  - 🔴 **Blind Spot**: The #1 hidden trap, friction, or flawed premise.
+  - 🟣 **80/20 Verdict**: Actionable recommendation.
+- **Tier 1: Full Crucible Gate**: Trigger the full 4-part Hegelian scaffold ONLY when explicitly requested via `PCDA:`, `/pcda`, or when asked for "pros and cons", "devil's advocate", "stress-test", or "tradeoffs".
 
 ### 2. Air-Gapped Method B+ Invariants (MANDATORY)
 Whenever activated, you MUST strictly enforce the two-part Method B+ invariant:

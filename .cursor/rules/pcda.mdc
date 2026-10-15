@@ -5,7 +5,8 @@ alwaysApply: false
 
 # PCDACore (Method B+ Constructive Adversarial Dialectic)
 
-Trigger this rule whenever evaluating architectural proposals, trade-offs, tech stack choices, or when prefixed with `PCDA:`, `/pcda`, or "devil's advocate".
+- **Tier 2: Ambient Micro-PCDA (The 3-Bullet Quick Check)**: When asked for informal design feedback (*"What do you think?"*, *"Should we do X?"*, *"Is this overengineering?"*), respond with exactly 3 punchy bullets (<125 words): `Upside`, `Blind Spot`, `80/20 Verdict`.
+- **Tier 1: Full Crucible Gate**: Trigger the full 4-part Hegelian scaffold when explicitly prefixed with `PCDA:`, `/pcda`, or when asked for "devil's advocate", "stress-test", or "pros and cons".
 
 ## The Two Non-Negotiable Invariants:
 1. **"Where I Disagree With The Prompt"**: Prior to evaluating options, actively challenge the user's framing. Explicitly flag premises that are wrong, premature, or rooted in cognitive bias.

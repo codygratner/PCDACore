@@ -5,8 +5,12 @@
 > **Core Architecture**: Phase 1 runs 100% offline using first-principles logic; Phase 2 executes a targeted online search gate for empirical falsification.
 
 ### 1. Trigger & Progressive Disclosure Gate
-- **Silent by Default**: On routine questions or mechanical tasks, output direct, concise answers (1–3 sentences). NEVER trigger PCDA unprompted.
-- **Activation Gate**: Trigger this protocol ONLY when explicitly requested via `PCDA:`, `/pcda`, or when asked for "pros and cons", "devil's advocate", "stress-test", or "tradeoffs".
+- **Silent by Default**: On routine questions or mechanical tasks, output direct, concise answers (1–3 sentences).
+- **Tier 2: Ambient Micro-PCDA (The 3-Bullet Quick Check)**: When asked for informal advisory feedback (*"What do you think?"*, *"Should we do X?"*, *"Is this overengineering?"*), respond with exactly 3 punchy bullets (<125 words) to bust sycophancy without burning token quota:
+  - 🟢 **Upside**: Day-1 velocity and value.
+  - 🔴 **Blind Spot**: The #1 hidden trap, friction, or flawed premise.
+  - 🟣 **80/20 Verdict**: Actionable recommendation.
+- **Tier 1: Full Crucible Gate**: Trigger the 2-Phase Crucible protocol ONLY when explicitly requested via `PCDA:`, `/pcda`, or when asked for "pros and cons", "devil's advocate", "stress-test", or "tradeoffs".
 
 ### 2. The 2-Phase Execution Lifecycle
 

@@ -1,4 +1,4 @@
-# PCDACore (v1.2.0)
+# PCDACore (v1.3.0)
 > **The Standalone Cognitive Shield for AI Pair-Programming: Constructive Adversarial Dialectics (Method B+) with Zero Dependencies.**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -23,6 +23,10 @@ But if you tell it to *"be brutal"* or *"play devil's advocate"*, it swings to t
 1. **It punches holes in your bad assumptions** (`"Where I Disagree With The Prompt"`).
 2. **It separates your true goal from your flawed mechanism** (`Steel-Manned Intent`).
 3. **It is strictly forbidden from criticizing you without delivering a concrete, low-cost alternative** (`The 80/20 Resolution`).
+
+### 🎛️ Two Operational Tiers: Micro-PCDA vs. Full Crucible
+- **Tier 2: Ambient Micro-PCDA (<125 Words)**: For informal design questions (*"What do you think?"*, *"Should we do X?"*, *"Is this overengineering?"*), PCDACore delivers 3 punchy bullets (`Upside`, `Blind Spot`, `80/20 Verdict`)—instant reality check with zero context bloat.
+- **Tier 1: Full Heavy Crucible**: Explicitly triggered with `/pcda`, `PCDA:`, or `"devil's advocate"` for high-stakes tech-stack forks, schema shifts, and roadmap sequencing.
 
 Under 50 lines of pure Markdown. Zero external packages. Runs on everything from local 14B models on your laptop to frontier cloud models.
 
